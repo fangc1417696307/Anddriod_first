@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">France</string>
+    <string name="clicked">J\'ai été cliqué</string>
+    <string name="button">Cliquez-moi</string>
+    <string name="textview">Bonjour, le monde</string>
+</resources>

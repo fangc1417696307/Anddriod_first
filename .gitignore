@@ -1,0 +1,21 @@
+# Android Studio 生成文件
+.idea/
+gradle/
+build/
+app/build/
+*.iml
+.gradle
+local.properties
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+apkoutput/
+
+# Android 项目
+*.log
+app/release/
+app/debug/
+
+# 其他系统文件
+Thumbs.db

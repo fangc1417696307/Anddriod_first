@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">中国</string>
+    <string name="clicked">我被电了</string>
+    <string name="button">点我</string>
+    <string name="textview">你好，世界</string>
+</resources>
