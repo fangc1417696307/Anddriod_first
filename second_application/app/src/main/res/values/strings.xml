@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">方晨 2024080805</string>
+    
+    <string name="button1">确定</string>
+    <string name="button2">新建文本</string>
+    <string-array name="list">
+        <item>快速</item>
+        <item>容易</item>
+        <item>新语言</item>
+        <item>面向对象</item>
+    </string-array>
+</resources>
