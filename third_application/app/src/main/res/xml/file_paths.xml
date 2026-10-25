@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 拍照得到的图片临时保存在应用私有缓存目录 cacheDir/photos 下 -->
+    <cache-path
+        name="photos"
+        path="photos/" />
+</paths>

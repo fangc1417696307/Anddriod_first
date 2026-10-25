@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity() {
         imageView.setImageResource(R.drawable.flag)
         linearLayout.addView(imageView)
 
-
         val textView= TextView(this)
         textView.layoutParams= ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT)
         textView.textSize=30F

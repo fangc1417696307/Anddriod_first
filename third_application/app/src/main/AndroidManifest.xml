@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- 第 2 个二级 Activity：输入内容并返回结果 -->
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- 第 3 个二级 Activity：调用系统相机 -->
+        <activity
+            android:name=".FourthActivity"
+            android:exported="false" />
+        <!-- 第 4 个二级 Activity：秒表 -->
+        <activity
+            android:name=".FifthActivity"
+            android:exported="false" />
+
+        <!-- 拍照输出的文件通过 FileProvider 以 content:// Uri 交给相机应用（Android 7.0+ 不允许直接传 file:// ） -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<resources>
+    <!-- TODO 提交前把 app_name 改成自己的“姓名+学号” -->
+    <string name="app_name">My Application</string>
+
+    <!-- 主界面 -->
+    <string name="input_something">请输入要传递的内容</string>
+    <string name="btn_forward">启动第 1 个 Activity：正向传参</string>
+    <string name="btn_return">启动第 2 个 Activity：返回结果</string>
+    <string name="btn_camera">启动第 3 个 Activity：调用系统相机</string>
+    <string name="btn_stopwatch">启动第 4 个 Activity：秒表</string>
+    <string name="result_placeholder">返回结果将显示在这里</string>
+    <string name="returned_result">返回结果：%1$s</string>
+
+    <!-- 第 2 个二级 Activity -->
+    <string name="input_something3">请输入要返回的内容</string>
+    <string name="button3">确定</string>
+    <string name="empty_input_tip">输入内容不能为空</string>
+
+    <!-- 第 3 个二级 Activity（相机） -->
+    <string name="camera_take">拍照</string>
+    <string name="camera_unavailable">没有找到可用的相机应用</string>
+    <string name="camera_canceled">已取消拍照</string>
+    <string name="photo_desc">拍照得到的照片</string>
+
+    <!-- 第 4 个二级 Activity（秒表） -->
+    <string name="stopwatch_zero">00:00.00</string>
+    <string name="stopwatch_start">开始</string>
+    <string name="stopwatch_pause">暂停</string>
+    <string name="stopwatch_reset">重置</string>
+    <string name="stopwatch_lap">计次</string>
+    <string name="lap_item">第 %1$d 次    %2$s</string>
+</resources>

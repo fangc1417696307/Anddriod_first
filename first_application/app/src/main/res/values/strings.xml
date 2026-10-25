@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">America</string>
+    <string name="app_name" translatable="false">方晨2024080805</string>
     <string name="clicked" translatable="false">I am clicked</string>
     <string name="button" translatable="false">Click me</string>
     <string name="textview" translatable="false">Hello World</string>
